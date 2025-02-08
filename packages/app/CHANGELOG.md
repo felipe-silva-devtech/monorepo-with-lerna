@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.4](https://github.com/felipe-silva-devtech/monorepo-with-lerna/compare/@felipe-silva-devtech/monorepo-app@0.1.3...@felipe-silva-devtech/monorepo-app@0.1.4) (2025-02-08)
+
+### Bug Fixes
+
+- adicionando readme em todos projetos ([c0ea77b](https://github.com/felipe-silva-devtech/monorepo-with-lerna/commit/c0ea77b36d1ded39f6dc411055a91a8607e0805b))
+
 ## [0.1.3](https://github.com/felipe-silva-devtech/monorepo-with-lerna/compare/@felipe-silva-devtech/monorepo-app@0.1.2...@felipe-silva-devtech/monorepo-app@0.1.3) (2025-02-08)
 
 ### Bug Fixes
