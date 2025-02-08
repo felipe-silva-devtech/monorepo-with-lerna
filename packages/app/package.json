@@ -13,6 +13,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipe-silva-devtech/monorepo-with-lerna.git"
+  },
   "dependencies": {
     "@felipe-silva-devtech/monorepo-ui": "^0.1.0",
     "@felipe-silva-devtech/monorepo-utils": "^0.1.0"
