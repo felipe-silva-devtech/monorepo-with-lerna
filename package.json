@@ -5,7 +5,14 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "lerna run test"
+    "eslint": "lerna run eslint",
+    "prettier": "lerna run prettier",
+    "format": "lerna run format",
+    "test": "lerna run test",
+    "build": "lerna run build",
+    "prepare": "husky",
+    "publish:latest": "lerna publish --conventional-commits --include-merged-tags --yes",
+    "publish:preview": "lerna version --conventional-commits --include-merged-tags --no-push --no-git-tag-version --yes"
   },
   "keywords": [],
   "author": "",

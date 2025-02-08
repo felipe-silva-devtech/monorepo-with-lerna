@@ -1,5 +1,18 @@
 {
+  "npmClient": "yarn",
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
-  "version": "0.0.0",
-  "npmClient": "yarn"
+  "version": "independent",
+  "packages": ["packages/*"],
+  "ignoreChanges": ["**/*.test.tsx", "**/*.spec.tsx", "**/*.md", "**/*.mdx"],
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "registry": "https://npm.pkg.github.com/"
+    },
+    "version": {
+      "conventionalCommits": true,
+      "message": "chore(Release): [skip ci] publish",
+      "allowBranch": ["main"]
+    }
+  }
 }
