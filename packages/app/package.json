@@ -15,7 +15,8 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/felipe-silva-devtech/monorepo-with-lerna.git"
+    "url": "git+https://github.com/felipe-silva-devtech/monorepo-with-lerna.git",
+    "directory": "packages/app"
   },
   "dependencies": {
     "@felipe-silva-devtech/monorepo-ui": "^0.1.1",
