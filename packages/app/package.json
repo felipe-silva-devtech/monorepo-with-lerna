@@ -1,5 +1,5 @@
 {
-  "name": "@fsdt/monorepo-app",
+  "name": "@felipe-silva-devtech/monorepo-app",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fsdt/monorepo-ui": "^0.0.0",
-    "@fsdt/monorepo-utils": "^0.0.0"
+    "@felipe-silva-devtech/monorepo-ui": "^0.0.0",
+    "@felipe-silva-devtech/monorepo-utils": "^0.0.0"
   }
 }
