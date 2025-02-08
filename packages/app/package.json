@@ -3,10 +3,18 @@
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
+  "files": [
+    "src",
+    "package.json"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\""
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@fsdt/monorepo-ui": "^0.0.0",
+    "@fsdt/monorepo-utils": "^0.0.0"
+  }
 }
